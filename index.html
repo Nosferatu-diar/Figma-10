@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Figma-10</title>
+		<link rel="stylesheet" href="./src/output.css" />
+	</head>
+	<body>
+		<!-- header -->
+		<header class="flex flex-col w-[85%] m-auto max-w-[1440px]">
+			<!-- nav1 -->
+			<nav class="flex items-center justify-between pt-5 pb-7">
+				<img src="./assets/svg/Logo.svg" alt="Logo" />
+				<button
+					class="flex items-center bg-[#f56e1e] px-8 hover:bg-orange-600 py-3 gap-2 text-white rounded-xl"
+				>
+					<img src="./assets/svg/burger.svg" alt="burger" />Каталог
+				</button>
+				<div
+					class="flex items-center border justify-between py-3 px-5 w-[590px] rounded-xl border-gray-500"
+				>
+					<input
+						class="outline-none border-none"
+						type="search"
+						placeholder="Я ищу"
+					/>
+					<img
+						class="cursor-pointer"
+						src="./assets/svg/search.svg"
+						alt="search"
+					/>
+				</div>
+				<div class="flex items-center gap-5">
+					<img src="./assets/svg/basket.svg" alt="basket" />
+					<img src="./assets/svg/favourites.svg" alt="favourites" />
+					<img src="./assets/svg/profile.svg" alt="profile" />
+				</div>
+			</nav>
+			<!-- nav1 -->
+			<nav class="flex items-center justify-between pb-5">
+				<button
+					class="text-[#a0a3bd] text-xs px-4 py-2 rounded-full border border-gray-400"
+				>
+					Динамично. Надежно. Доступно.
+				</button>
+				<img src="./assets/svg/selectCountry.svg" alt="select" />
+				<ul class="text-[#6e7191] flex items-center gap-6">
+					<li class="hover:underline decoration-blue-500">
+						<a class="flex items-center gap-2" href="#"
+							>О компании <img src="./assets/svg/arrowBottom.svg" alt="arrow"
+						/></a>
+					</li>
+					<li class="hover:underline decoration-blue-500">
+						<a class="flex items-center gap-2" href="#"
+							>Клиентам <img src="./assets/svg/arrowBottom.svg" alt="arrow"
+						/></a>
+					</li>
+					<li class="hover:underline decoration-blue-500">
+						<a href="#">Сотрудничество</a>
+					</li>
+					<li class="hover:underline decoration-blue-500">
+						<a href="#">Контакты</a>
+					</li>
+				</ul>
+				<div class="flex items-center gap-4">
+					<img
+						class="cursor-pointer"
+						src="./assets/svg/telegram.svg"
+						alt="telegram"
+					/>
+					<img class="cursor-pointer" src="./assets/svg/vk.svg" alt="vk" />
+				</div>
+				<p
+					class="flex items-center gap-2 text-lg font-bold text-[#f56e1e] cursor-pointer"
+				>
+					8 (800) 455-45-11
+					<img src="./assets/svg/arrowBottom.svg" alt="arrow" />
+				</p>
+				<button
+					class="flex items-center rounded-xl hover:bg-orange-600 px-3 gap-3 py-1.5 text-white bg-[#f56e1e]"
+				>
+					<img src="./assets/svg/phoneWhite.svg" alt="phone" />Заказть звонок
+				</button>
+			</nav>
+			<!-- main slide -->
+			<div class="pt-10 pb-10">
+				<img src="./assets/img/Main slider.png" alt="Main" />
+			</div>
+		</header>
+
+		<!-- Popular -->
+		<section class="flex flex-col w-[85%] m-auto max-w-[1440px] pt-5 pb-10">
+			<p class="text-[#6E7191] text-3xl font-bold">Популярные категории</p>
+			<div class="flex items-center justify-between pt-10">
+				<div
+					class="flex items-center flex-col gap-3 bg-[#f1f1f1] border hover:border-orange-500 cursor-pointer hover:text-[#de5703] rounded-lg px-5 py-3"
+				>
+					<img src="./assets/svg/popular1.svg" alt="popular" />
+					<p class="font-medium text-center">
+						Стартеры и <br />
+						комплектующие
+					</p>
+				</div>
+				<div
+					class="flex items-center flex-col gap-3 bg-[#f1f1f1] border hover:border-orange-500 cursor-pointer hover:text-[#de5703] rounded-lg px-10 py-6"
+				>
+					<img src="./assets/svg/popular2.svg" alt="popular" />
+					<p class="font-medium text-center">Термостаты</p>
+				</div>
+				<div
+					class="flex items-center flex-col gap-3 bg-[#f1f1f1] border hover:border-orange-500 cursor-pointer hover:text-[#de5703] rounded-lg px-9 py-3"
+				>
+					<img src="./assets/svg/popular3.svg" alt="popular" />
+					<p class="font-medium text-center leading-4">
+						Датчики и <br />
+						комбинации <br />
+						приборов
+					</p>
+				</div>
+				<div
+					class="flex items-center flex-col gap-3 bg-[#f1f1f1] border hover:border-orange-500 cursor-pointer hover:text-[#de5703] rounded-lg px-10 py-6"
+				>
+					<img src="./assets/svg/popular4.svg" alt="popular" />
+					<p class="font-medium text-center">Генераторы</p>
+				</div>
+				<div
+					class="flex items-center flex-col gap-3 bg-[#f1f1f1] border hover:border-orange-500 cursor-pointer hover:text-[#de5703] rounded-lg px-8 py-6"
+				>
+					<img src="./assets/svg/popular5.svg" alt="popular" />
+					<p class="font-medium text-center">СВЕТОТЕХНИКА</p>
+				</div>
+				<div
+					class="flex items-center flex-col gap-3 bg-[#f1f1f1] border hover:border-orange-500 cursor-pointer hover:text-[#de5703] rounded-lg px-5 py-3"
+				>
+					<img src="./assets/svg/popular6.svg" alt="popular" />
+					<p class="font-medium text-center">
+						Электродвигатели <br />
+						отопителя
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Newst -->
+		<section class="flex flex-col w-[85%] m-auto max-w-[1440px] pt-10 pb-10">
+			<div class="flex items-center justify-between">
+				<p class="text-[#6E7191] text-3xl font-bold">Новости</p>
+				<button
+					class="flex items-center gap-4 border border-orange-500 px-5 py-3 rounded-xl hover:bg-orange-100 text-[#de5703] font-bold"
+				>
+					Посмотреть все
+					<img src="./assets/svg/arrowRightOrange.svg" alt="arrow" />
+				</button>
+			</div>
+			<div class="flex items-center gap-8 pt-10">
+				<img
+					class="w-[32%] cursor-pointer"
+					src="./assets/img/news1.png"
+					alt="news"
+				/>
+				<img
+					class="w-[32%] cursor-pointer"
+					src="./assets/img/news2.png"
+					alt="news"
+				/>
+				<img
+					class="w-[32%] cursor-pointer"
+					src="./assets/img/news3.png"
+					alt="news"
+				/>
+			</div>
+			<div class="flex flex-col items-center justify-center pt-10 gap-24">
+				<img
+					class="cursor-pointer"
+					src="./assets/svg/threCircle.svg"
+					alt="circle"
+				/>
+				<img src="./assets/img/Banner 1050x200.png" alt="" />
+			</div>
+		</section>
+
+		<!-- Auto parts -->
+		<section class="flex flex-col w-[85%] m-auto max-w-[1440px] pt-14 pb-10">
+			<p class="text-[#6E7191] text-3xl font-bold">Автозапчасти к технике</p>
+			<div class="flex items-center justify-between gap-4 pt-10">
+				<img
+					class="w-[12%] cursor-pointer"
+					src="./assets/img/tech 1.png"
+					alt="cars"
+				/>
+				<img
+					class="w-[12%] cursor-pointer"
+					src="./assets/img/tech 7.png"
+					alt="cars"
+				/>
+				<img
+					class="w-[12%] cursor-pointer"
+					src="./assets/img/tech 3.png"
+					alt="cars"
+				/>
+				<img
+					class="w-[12%] cursor-pointer"
+					src="./assets/img/tech 4.png"
+					alt="cars"
+				/>
+				<img
+					class="w-[12%] cursor-pointer"
+					src="./assets/img/tech 5.png"
+					alt="cars"
+				/>
+				<img
+					class="w-[12%] cursor-pointer"
+					src="./assets/img/tech 7.png"
+					alt="cars"
+				/>
+				<img
+					class="w-[12%] cursor-pointer"
+					src="./assets/img/tech 6.png"
+					alt="cars"
+				/>
+			</div>
+		</section>
+
+		<!-- Sales hits -->
+		<section class="flex flex-col w-[85%] m-auto max-w-[1440px] pt-14 pb-10">
+			<p class="text-[#6E7191] text-3xl font-bold">Автозапчасти к технике</p>
+			<div class="flex items-center gap-5 pt-10">
+				<div class="flex flex-col gap-2">
+					<img src="./assets/img/hit1.png" alt="hit" />
+					<p class="font-bold text-xl items-start flex gap-2 pt-2">
+						999999 ₽
+						<span class="font-normal text-[#a0a3bd] text-base">999999 ₽</span>
+					</p>
+					<p class="text-[#6e7191] leading-4 pr-5">
+						Фара светодиодная <br />
+						дополнительная круглая,<br />
+						направленный свет, 14<br />
+						диодов, 42W, (115х42х142)
+					</p>
+					<p class="text-[#6e7191] leading-5 font-semibold pb-3">
+						Кат. номер: <br />
+						<span class="text-[#4e4b66]"> AE42R-14LED-42HC</span>
+					</p>
+					<button
+						class="flex items-center gap-3 bg-[#f56e1e] text-white font-semibold rounded-xl py-2 px-3 hover:bg-orange-600"
+					>
+						<img class="" src="./assets/svg/basketWhite.svg" alt="basket" />В
+						корзину
+					</button>
+				</div>
+				<div class="flex flex-col gap-2">
+					<img src="./assets/img/hit2.png" alt="hit" />
+					<p class="font-bold text-xl items-start flex gap-2 pt-2">
+						999999 ₽
+						<span class="font-normal text-[#a0a3bd] text-base">999999 ₽</span>
+					</p>
+					<p class="text-[#6e7191] leading-4 pr-5">
+						Фара светодиодная <br />
+						дополнительная круглая,<br />
+						направленный свет, 14<br />
+						диодов, 42W, (115х42х142)
+					</p>
+					<p class="text-[#6e7191] leading-5 font-semibold pb-3">
+						Кат. номер: <br />
+						<span class="text-[#4e4b66]"> AE42R-14LED-42HC</span>
+					</p>
+					<button
+						class="flex items-center gap-3 bg-[#f56e1e] text-white font-semibold rounded-xl py-2 px-3 hover:bg-orange-600"
+					>
+						<img class="" src="./assets/svg/basketWhite.svg" alt="basket" />В
+						корзину
+					</button>
+				</div>
+				<div class="flex flex-col gap-2">
+					<img src="./assets/img/hit1.png" alt="hit" />
+					<p class="font-bold text-xl items-start flex gap-2 pt-2">
+						999999 ₽
+						<span class="font-normal text-[#a0a3bd] text-base">999999 ₽</span>
+					</p>
+					<p class="text-[#6e7191] leading-4 pr-5">
+						Фара светодиодная <br />
+						дополнительная круглая,<br />
+						направленный свет, 14<br />
+						диодов, 42W, (115х42х142)
+					</p>
+					<p class="text-[#6e7191] leading-5 font-semibold pb-3">
+						Кат. номер: <br />
+						<span class="text-[#4e4b66]"> AE42R-14LED-42HC</span>
+					</p>
+					<button
+						class="flex items-center gap-3 bg-[#f56e1e] text-white font-semibold rounded-xl py-2 px-3 hover:bg-orange-600"
+					>
+						<img class="" src="./assets/svg/basketWhite.svg" alt="basket" />В
+						корзину
+					</button>
+				</div>
+				<div class="flex flex-col gap-2">
+					<img src="./assets/img/hit2.png" alt="hit" />
+					<p class="font-bold text-xl items-start flex gap-2 pt-2">
+						999999 ₽
+						<span class="font-normal text-[#a0a3bd] text-base">999999 ₽</span>
+					</p>
+					<p class="text-[#6e7191] leading-4 pr-5">
+						Фара светодиодная <br />
+						дополнительная круглая,<br />
+						направленный свет, 14<br />
+						диодов, 42W, (115х42х142)
+					</p>
+					<p class="text-[#6e7191] leading-5 font-semibold pb-3">
+						Кат. номер: <br />
+						<span class="text-[#4e4b66]"> AE42R-14LED-42HC</span>
+					</p>
+					<button
+						class="flex items-center gap-3 bg-[#f56e1e] text-white font-semibold rounded-xl py-2 px-3 hover:bg-orange-600"
+					>
+						<img class="" src="./assets/svg/basketWhite.svg" alt="basket" />В
+						корзину
+					</button>
+				</div>
+				<div class="flex flex-col gap-2">
+					<img src="./assets/img/hit2.png" alt="hit" />
+					<p class="font-bold text-xl items-start flex gap-2 pt-2">
+						999999 ₽
+						<span class="font-normal text-[#a0a3bd] text-base">999999 ₽</span>
+					</p>
+					<p class="text-[#6e7191] leading-4 pr-5">
+						Фара светодиодная <br />
+						дополнительная круглая,<br />
+						направленный свет, 14<br />
+						диодов, 42W, (115х42х142)
+					</p>
+					<p class="text-[#6e7191] leading-5 font-semibold pb-3">
+						Кат. номер: <br />
+						<span class="text-[#4e4b66]"> AE42R-14LED-42HC</span>
+					</p>
+					<button
+						class="flex items-center gap-3 bg-[#f56e1e] text-white font-semibold rounded-xl py-2 px-3 hover:bg-orange-600"
+					>
+						<img class="" src="./assets/svg/basketWhite.svg" alt="basket" />В
+						корзину
+					</button>
+				</div>
+				<div class="flex flex-col gap-2">
+					<img src="./assets/img/hit2.png" alt="hit" />
+					<p class="font-bold text-xl items-start flex gap-2 pt-2">
+						999999 ₽
+						<span class="font-normal text-[#a0a3bd] text-base">999999 ₽</span>
+					</p>
+					<p class="text-[#6e7191] leading-4 pr-5">
+						Фара светодиодная <br />
+						дополнительная круглая,<br />
+						направленный свет, 14<br />
+						диодов, 42W, (115х42х142)
+					</p>
+					<p class="text-[#6e7191] leading-5 font-semibold pb-3">
+						Кат. номер: <br />
+						<span class="text-[#4e4b66]"> AE42R-14LED-42HC</span>
+					</p>
+					<button
+						class="flex items-center gap-3 bg-[#f56e1e] text-white font-semibold rounded-xl py-2 px-3 hover:bg-orange-600"
+					>
+						<img class="" src="./assets/svg/basketWhite.svg" alt="basket" />В
+						корзину
+					</button>
+				</div>
+			</div>
+			<div class="flex flex-col items-center justify-center pt-20 pb-20">
+				<img src="./assets/img/Banner 1050x200.png" alt="" />
+			</div>
+			<div class="flex items-center justify-between">
+				<div
+					class="border-gray-400 rounded-xl shadow-md cursor-pointer hover:bg-slate-100 border py-5 px-8 flex items-center gap-5"
+				>
+					<img src="./assets/svg/hit1.svg" alt="hit" />
+					<div class="flex gap-4 flex-col">
+						<p class="text-[#f56e1e] font-semibold text-xl">Динамично</p>
+						<p class="leading-4 text-sm text-[#6e7191]">
+							Мы предлагаем более 15000 <br />
+							наименований запчастей на все <br />
+							виды автотранспортных средств, <br />
+							тракторную и сельхозтехнику, <br />
+							спецтехнику.
+						</p>
+					</div>
+				</div>
+				<div
+					class="border-gray-400 rounded-xl shadow-md cursor-pointer hover:bg-slate-100 border py-5 px-8 flex items-center gap-5"
+				>
+					<img src="./assets/svg/hit2.svg" alt="hit" />
+					<div class="flex gap-4 flex-col">
+						<p class="text-[#f56e1e] font-semibold text-xl">Надежно</p>
+						<p class="leading-4 text-sm text-[#6e7191]">
+							Мы предлагаем более 15000 <br />
+							наименований запчастей на все <br />
+							виды автотранспортных средств, <br />
+							тракторную и сельхозтехнику, <br />
+							спецтехнику.
+						</p>
+					</div>
+				</div>
+				<div
+					class="border-gray-400 rounded-xl shadow-md cursor-pointer hover:bg-slate-100 border py-5 px-8 flex items-center gap-5"
+				>
+					<img src="./assets/svg/hit3.svg" alt="hit" />
+					<div class="flex gap-4 flex-col">
+						<p class="text-[#f56e1e] font-semibold text-xl">Доступно</p>
+						<p class="leading-4 text-sm text-[#6e7191]">
+							Мы предлагаем более 15000 <br />
+							наименований запчастей на все <br />
+							виды автотранспортных средств, <br />
+							тракторную и сельхозтехнику, <br />
+							спецтехнику.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Choice -->
+		<section class="flex flex-col w-[85%] m-auto max-w-[1440px] pt-10 pb-10">
+			<p class="text-[#6E7191] text-3xl font-bold pb-6">
+				Оптовая продажа автотракторных запчастей
+			</p>
+			<div class="pb-20">
+				<img src="./assets/img/SEO txt.png" alt="" />
+			</div>
+			<div class="flex flex-col gap-3 bg-[#fde9de] rounded-xl py-4 px-6">
+				<p class="text-[#6E7191] text-2xl font-semibold">
+					Выберите категорию рассылки
+				</p>
+				<div class="flex items-center gap-5">
+					<div class="flex items-center gap-3">
+						<img
+							class="cursor-pointer"
+							src="./assets/svg/tickWhite.svg"
+							alt="tick"
+						/>
+						<p class="text-[#f56e1e] leading-5">
+							Электронная версия <br />
+							каталога продукции
+						</p>
+					</div>
+					<div class="flex items-center gap-3">
+						<img
+							class="cursor-pointer"
+							src="./assets/svg/circle.svg"
+							alt="circle"
+						/>
+						<p class="text-[#6e7191] leading-5">
+							Прайс-лист <br />
+							с актуальными ценами
+						</p>
+					</div>
+					<div class="flex items-center gap-3">
+						<img
+							class="cursor-pointer"
+							src="./assets/svg/tickWhite.svg"
+							alt="tick"
+						/>
+						<p class="text-[#f56e1e] leading-5">
+							Информация <br />
+							о новинках и акциях
+						</p>
+					</div>
+					<div
+						class="border border-gray-400 rounded-xl py-2 px-5 bg-[#fff] w-[400px]"
+					>
+						<input
+							class="outline-none border-none backdrop-blur-none"
+							type="email"
+							placeholder="Введите Ваш e-mail"
+						/>
+					</div>
+					<button
+						class="text-white bg-[#f56e1e] font-semibold py-2 px-6 rounded-xl hover:bg-orange-600"
+					>
+						Подписаться
+					</button>
+				</div>
+				<p class="text-[#6e7191] pt-3">
+					Нажимая «Подписаться», вы соглашаетесь с
+					<span class="text-[#f56e1e] underline">
+						политикой конфиденциальности</span
+					>
+				</p>
+			</div>
+		</section>
+
+		<!-- footer -->
+		<footer class="flex w-[85%] gap-12 m-auto max-w-[1440px] pt-10 pb-10">
+			<div class="flex flex-col gap-4">
+				<div>
+					<img src="./assets/svg/logoWhite.svg" alt="Logo" />
+				</div>
+				<p class="text-sm text-[#6e7191]">
+					Оптовая продажа запчастей <br />
+					на все виды автотранспортных средств
+				</p>
+				<p class="text-sm text-[#6e7191]">
+					ИП Хомченко Максим Альбертович <br />
+					ОГРНИП 000000000
+				</p>
+				<p class="text-sm text-[#6e7191] pt-5">
+					1993 - 2022 © АвтоЭлектрика <br />
+					<span class="underline"> Политика конфиденциальности</span>
+				</p>
+			</div>
+			<ul class="flex flex-col gap-3">
+				<li class="pb-5 font-semibold text-lg">О компании</li>
+				<li class="text-[#6e7191] cursor-pointer">Документы и реквизиты</li>
+				<li class="text-[#6e7191] cursor-pointer">Бренды</li>
+				<li class="text-[#6e7191] cursor-pointer">Сотрудники</li>
+				<li class="text-[#6e7191] cursor-pointer">Контакты</li>
+				<li class="text-[#6e7191] cursor-pointer">Карьера</li>
+			</ul>
+			<ul class="flex flex-col gap-3">
+				<li class="pb-5 font-semibold text-lg">Клиентам</li>
+				<li class="text-[#6e7191] cursor-pointer">Новости</li>
+				<li class="text-[#6e7191] cursor-pointer">Как зарегестрироваться</li>
+				<li class="text-[#6e7191] cursor-pointer">Как сделать заказ</li>
+				<li class="text-[#6e7191] cursor-pointer">Способы оплаты</li>
+				<li class="text-[#6e7191] cursor-pointer">Гарантии возврата</li>
+				<li class="text-[#6e7191] cursor-pointer">Вопросы и ответы</li>
+				<li class="text-[#6e7191] cursor-pointer">Доставка и склад</li>
+			</ul>
+			<p class="font-semibold text-lg">Сотрудничество</p>
+			<div class="flex flex-col items-end gap-10">
+				<div class="flex items-center gap-5 border-b pb-2 border-gray-400">
+					<p class="text-[#6e7191] text-sm underline">
+						Ссылка на форму обратной связи со <br />
+						службой контроля качества
+					</p>
+					<img src="./assets/svg/telegram.svg" alt="telegram" />
+					<img src="./assets/svg/vk.svg" alt="vk" />
+				</div>
+				<p class="text-sm text-[#a0a3bc] leading-4 text-end">
+					Время работы <br /><span class="text-lg text-[#6e7191]"
+						>пн. - пт. с 7:30 до 18:00</span
+					>
+				</p>
+				<p class="text-sm text-[#a0a3bc] leading-4 text-end">
+					Телефоны: <br /><span
+						class="text-lg text-[#6e7191] leading-4 font-semibold"
+					>
+						8 (800) 455-55-15 <br />
+						+7 (495) 108-54-64</span
+					>
+				</p>
+				<p class="text-sm text-[#a0a3bc] leading-4 text-end">
+					Адрес эл. почты <br /><span
+						class="text-lg text-[#6e7191] font-semibold"
+						>info@auto-e.ru</span
+					>
+				</p>
+			</div>
+		</footer>
+      
+      <!-- arrow -->
+		<img
+			class="w-[2%] cursor-pointer absolute left-3 bottom-5"
+			src="./assets/img/action.png"
+			alt="arrow"
+		/>
+	</body>
+</html>
